@@ -1,0 +1,180 @@
+/* Primary */
+/* Secondary */
+/* Neutral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  text-align: center;
+}
+
+.row-1 img {
+  margin: 50px 0;
+}
+@media only screen and (max-width: 540px) {
+  .row-1 img {
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+}
+.row-1 h1 {
+  margin-top: -30px;
+  color: #151f29;
+}
+@media only screen and (max-width: 540px) {
+  .row-1 h1 {
+    font-size: 1.5rem;
+  }
+}
+.row-1 h1 span {
+  font-weight: 300;
+  color: #969696;
+}
+.row-1 h4 {
+  margin: 15px 0;
+  margin-bottom: 30px;
+  font-weight: 400;
+  color: #151f29;
+}
+@media only screen and (max-width: 540px) {
+  .row-1 h4 {
+    font-size: 1rem;
+  }
+}
+.row-1 form input {
+  width: 350px;
+  height: 45px;
+  border-radius: 30px;
+  border: 1px solid #c2d3ff;
+  outline: none;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .row-1 form input {
+    width: 300px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+.row-1 form .input-error {
+  border-color: #ff5263;
+}
+.row-1 form .input::placeholder {
+  color: black;
+}
+.row-1 form .label-error {
+  display: block;
+}
+.row-1 form label {
+  color: #ff5263;
+  font-size: 0.8rem;
+  font-weight: 400;
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -285px;
+}
+@media only screen and (max-width: 540px) {
+  .row-1 form label {
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -70px;
+  }
+}
+.row-1 form button {
+  width: 175px;
+  height: 45px;
+  border: none;
+  background-color: #4f7df3;
+  border-radius: 30px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  box-shadow: 5px 5px 5px rgba(194, 211, 255, 0.5);
+  cursor: pointer;
+  outline: none;
+}
+.row-1 form button:hover {
+  background-color: rgba(79, 125, 243, 0.8);
+}
+@media only screen and (max-width: 540px) {
+  .row-1 form button {
+    width: 300px;
+  }
+}
+
+.row-2 img {
+  margin: 30px 0;
+  width: 550px;
+  height: 300px;
+}
+@media only screen and (max-width: 550px) {
+  .row-2 img {
+    width: 540px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .row-2 img {
+    width: 320px;
+    margin: 70px 0;
+    margin-bottom: 100px;
+  }
+}
+
+.row-3 ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.row-3 ul li {
+  color: #4f7df3;
+  margin: 0 5px;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.row-3 ul li:hover {
+  background-color: #4f7df3;
+  color: white;
+}
+.row-3 ul li i {
+  font-size: 1rem;
+}
+.row-3 span {
+  font-size: 0.7rem;
+  color: #969696;
+}
+@media only screen and (max-width: 540px) {
+  .row-3 span {
+    font-size: 0.5rem;
+  }
+}
+
+::placeholder {
+  color: #c2d3ff;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
