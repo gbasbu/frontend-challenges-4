@@ -1,0 +1,73 @@
+:root{
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+body{
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    min-height: 100vh;
+    background-color: var(--Light-grayish-blue);
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 13px;
+    font-weight: 100;
+}
+.daniel-col{
+    background-color: var(--Moderate-violet);
+    color:var(--White);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-position: top right 70px;
+    background-repeat: no-repeat;
+}
+.jonathan-col{
+    background-color: var(--Very-dark-grayish-blue);
+    color:var(--White);
+}
+.jeanette-col{
+    background-color: var(--White);
+}
+.jeanette-col .content-title{
+    opacity: .7;
+}
+.patrick-col{
+    background-color: var(--Very-dark-blackish-blue);
+    color:var(--White);
+}
+.kira-col{
+    background-color: var(--White);
+}
+.kira-col .content-title{
+    opacity: .7;
+}
+.title{
+    opacity: .7;
+}
+.subtitle{
+    opacity: .5;
+    margin-top: -7px;
+}
+.content-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+.content-text{
+    opacity: .5;
+}
+
+@media(max-width:1200px) {
+    .mt-6{
+        margin-top: 50px;
+    }
+    .mb-6{
+        margin-bottom: 50px;
+    }
+    .daniel-col{
+        background-position: top right 20px;
+    }
+}
